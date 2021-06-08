@@ -12,7 +12,7 @@
   @media (max-width:670px ) {
     /* Ubah width milik lesson ke 100% */
     .btn {
-      width: 100%;
+      width: 100px;
     }
     
     /* Ubah text-align property milik <footer> */
@@ -27,8 +27,8 @@
         line-height: 36px;
     }
     .top-wrapper a {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
   }
