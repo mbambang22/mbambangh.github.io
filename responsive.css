@@ -11,6 +11,9 @@
   /* Tambahkan breakpoint max-width: 670px */
   @media (max-width:670px ) {
     /* Ubah width milik lesson ke 100% */
+    .top-wrapper {
+    text-align: left;
+      }
     .header {
         font-size: 20px;
       }
