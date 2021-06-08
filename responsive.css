@@ -1,8 +1,28 @@
 /* Untuk Tablets */
 @media (max-width: 1000px) {
+     .container {
+    text-align: left;
+      }
+    .header h1 {
+        font-size: 15px;
+      }
     .btn {
-      width: 50%;
-      margin-bottom: 50px;
+      width: 100px;
+    }
+    
+    /* Ubah text-align property milik <footer> */
+    footer {
+      text-align: center;
+    }
+    .top-wrapper {
+        text-align: center;
+    }
+    .top-wrapper h2 {
+        font-size: 20px;
+    }
+    .top-wrapper a {
+        font-size: 12px;
+        line-height: 15px;
     }
   }
   
