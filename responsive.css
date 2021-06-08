@@ -12,7 +12,7 @@
   /* Untuk Smartphones */
   @media (max-width: 670px) {
     header {
-        height: 100px;
+        height: 500px;
     }
     footer {
       text-align: center;
