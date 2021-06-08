@@ -14,8 +14,8 @@
     .container {
     text-align: left;
       }
-    .header {
-        font-size: 20px;
+    .header h1 {
+        font-size: 15px;
       }
     .btn {
       width: 100%;
