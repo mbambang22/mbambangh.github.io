@@ -37,7 +37,7 @@ header {
   header h1 {
       padding: 15px;
   }
-  i {
+  .btn-wrapper i {
       padding-right: 15px;
   }
   .btn {
