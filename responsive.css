@@ -37,5 +37,8 @@
   .container img {
     text-size-adjust: 100px;
   }
+      .jumbotron {
+    width: 100%;
+  }
 
   }
