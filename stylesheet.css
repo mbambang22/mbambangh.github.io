@@ -64,3 +64,13 @@ header {
 .spotify {
     background-color: #81b71a;
 }
+@media (max-width: 1000px ) {
+    .btn {
+      width: 50%;
+    }
+  }
+  @media (max-width: 670px) {
+    .btn {
+      width: 50%;
+    }
+  }
