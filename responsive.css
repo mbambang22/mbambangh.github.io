@@ -37,7 +37,7 @@
   .container img {
     text-size-adjust: 100px;
   }
-      .jumbotron {
+      .jumbotron jumbotron-fluid {
     width: 300px;
   }
 
