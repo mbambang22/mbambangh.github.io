@@ -1,0 +1,66 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+.top-wrapper {
+    text-align: center;
+    padding: 150px;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.btn:hover {
+    opacity: 1;
+  }
+.btn-wrapper li {
+    list-style: none;
+    padding: 5px;
+}
+.btn-wrapper a {
+    text-decoration: none;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color:cadetblue;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    opacity: 100%;
+    text-align: center;
+  }
+  footer {
+    background-color:cadetblue;
+    padding: 10px;
+    text-align: center;
+  }
+  header h1 {
+      padding: 15px;
+  }
+  span {
+      padding-right: 15px;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .linkedin {
+      background-color: #0e76a8;
+  }
+  .drive {
+    background-color: #3f729b
+}
+.youtube {
+    background-color: #c4302b;
+}
+.whatsapp {
+    background-color:#25D366;
+}
+.spotify {
+    background-color: #81b71a;
+}
