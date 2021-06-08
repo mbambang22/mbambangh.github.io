@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p, div {
     text-decoration: none;
 }
 i {
-  padding: 10px;
+  padding-right: 10px;
   position: absolute;
 }
 header {
