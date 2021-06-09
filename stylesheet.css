@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 .top-wrapper {
+    width: 100%;
     text-align: center;
     padding: 150px;
     background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
