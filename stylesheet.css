@@ -30,12 +30,20 @@ header {
     text-align: center;
   }
   footer {
+    height: 50px;
+    width: 100%;
     background-color:cadetblue;
-    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    z-index: 10;
+    opacity: 100%;
     text-align: center;
   }
   header h1 {
       padding: 15px;
+  }
+  footer p {
+    padding: 15px;
   }
   i {
       padding-right: 15px;
