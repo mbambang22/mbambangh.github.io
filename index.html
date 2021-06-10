@@ -1,71 +1,86 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bambang's Link</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="header-left">
-              <a href="#" target="_self">
-                <img class="logo" src="logo-removebg-preview.png">
-              </a>
-               
-            </div>
-    </div>
-    </header>
-    <div class="top-wrapper">
-        <div class="w3-content w3-section" style="max-width:500px">
-          <img class="mySlides w3-animate-fading" src="1.JPG" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="2.JPG" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="5.JPG" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="7.JPG" style="width:100%">
-        </div>
-        
-        <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 2500);    
-        }
-        </script>
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color:cadetblue;
+    top: 0;
+    z-index: 10;
+    opacity: 100%;
+  }
+  .header-left {
+    float: left;
+  }
+  .logo {
+    padding: 30px;
+    width: 200px;
+  }
+  .top-wrapper {
+    padding: 100px 0 100px 0;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
   
-          <div class="container">
-            <h1>Choose What You Need!</h1>
-            <div class="btn-wrapper">
-              <a href="https://www.linkedin.com/in/muhammad-bambang-hutomo-55640b172" target="_blank" class="btn linkedin"><span class="fa fa-linkedin"></span>LinkedIn</a>
-              <a href="https://drive.google.com/drive/folders/1pHfm4SB9ASrzTMD-KG_lyR-yIaklBRBG?usp=sharing" target="_blank" class="btn camera"><span class="fa fa-camera"></span>Photo</a>
-              <a href="https://www.youtube.com/channel/UCSkQji4V4a3fKmz0d42l8jg?view_as=subscriber" target="_blank" class="btn youtube"><span class="fa fa-youtube"></span>Youtube</a>
-              <a href="https://wa.me/message/UMOBUVN6XNQVP1" target="_blank" class="btn whatsapp"><span class="fa fa-whatsapp"></span>Chat</a>
-              <a href="https://open.spotify.com/show/06KsS18FiVBSZhe6C1pRcl?si=uZUV-8rmQ1qiWur5YCKI8w" target="_blank" class="btn spotify"><span class="fa fa-spotify"></span>Podcast</a>
-              
-            </div>
-          </div>
-        </div>
-        <footer>
-            <div class="container">
-              <div class="footer-left">
-                  <p><span class="fa fa-copyright"></span>Copyright 2021</p>
-                 
-              </div>
-              <div class="footer-right">
-                <img class="logo" src="logo-removebg-preview.png">
-              </div>
-            </div>
-          </footer>
-</body>
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+.linkedin {
+    background-color: #0e76a8;
+}
+.camera {
+  background-color: #3f729b
+}
+.youtube {
+  background-color: #c4302b;
+}
+.whatsapp {
+  background-color:#25D366;
+}
+.spotify {
+  background-color: #81b71a;
+}
+span {
+    padding-right: 20px;
+}
+footer img {
+    width: 125px;
+  }
+  .footer-right {
+    text-align: right;
+  }
+  .footer-left {
+    text-align: left;
+    margin-top: 10px;
+  }
+  footer p {
+    color: black;
+    font-size: 12px;
+    float: left;
+  }
+  
+  footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: cadetblue;
+  }
